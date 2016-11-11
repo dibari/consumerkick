@@ -1,0 +1,20 @@
+html {min-height: 100%; position: relative;}
+body {background-color: #499DF5; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 100; letter-spacing: .1em; margin: 10px 0 65px;}
+@media (min-width: 768px) {
+	body {margin-bottom: 25px;}
+}
+
+header {text-align: center; margin-top: 70px;}
+header h1 {font-size: 3em; margin: 0;}
+header p {background-color: #70b3f8; font-size: 1.1em; margin: 0; padding: 8px;}
+
+section {font-size: 1.4em; margin: 40px auto 20px; max-width: 1000px; text-align: justify;}
+section a, section a:visited {color: #fff;}
+
+
+footer {bottom: 0; color: #eee; font-size: .7em; height: 75px; left: 0; position: absolute; text-align: center; width: 100%;}
+footer a {color: #eee; display: block; margin-left: 10px; margin-top: 12px;}
+@media (min-width: 768px) {
+	footer {height: 35px;}
+	footer a {display: inline-block; margin-top: auto;}
+}
